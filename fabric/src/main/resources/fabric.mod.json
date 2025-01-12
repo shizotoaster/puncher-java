@@ -1,35 +1,34 @@
 {
-    "schemaVersion": 1,
-    "id": "puncher",
-    "version": "${version}",
-    "name": "Puncher",
-    "description": "Ultimate boat/minecart destroyer!!!1!",
-    "authors": [
-        "${mod_author}"
-    ],
-    "contact": {
-        "sources": "https://github.com/shizotoaster/puncher-java"
-    },
-    "license": "MIT",
-    "icon": "puncher-icon.png",
-    "environment": "*",
-    "entrypoints": {
-        "main": [
-            "net.shizotoaster.puncher.Puncher"
-        ]
-    },
-    "depends": {
-        "fabric-api": "*",
-        "minecraft": ">=1.20",
-        "java": ">=17"
-    },
-    "custom": {
-        "catalogue": {
-            "icon": {
-                "image": "puncher-icon.png"
-            },
-            "banner": "puncher-banner.png"
-        }
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Ultimate boat/minecart destroyer!!!1!",
+  "authors": [
+    "shizotoaster"
+  ],
+  "contact": {
+    "sources": "https://github.com/shizotoaster/puncher-java"
+  },
+  "license": "MIT",
+  "icon": "puncher-icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.shizotoaster.puncher.Puncher"
+    ]
+  },
+  "depends": {
+    "fabric-api": "*",
+    "minecraft": ">=1.20",
+    "java": ">=17"
+  },
+  "custom": {
+    "catalogue": {
+      "icon": {
+        "image": "puncher-icon.png"
+      },
+      "banner": "puncher-banner.png"
     }
+  }
 }
-  
